@@ -1,0 +1,117 @@
+/* Seletores podem ser um elemento, classe ou id */
+/* Classe pode ser aplicada em varios elementos o id é uníco (só pode ser utilizado para identificar um único elemento HTML) */
+/* a:link = estado inicial | a:visited = visitado  | a:hover = cursor em cima | a:active = ativo */
+/* seletor:pseudo-classe | seletor::pseudo-elemento | Ex: #botao:houver {backgoud-color: blue;} */
+
+
+/* formatação geral corpo */
+
+body { 
+    background-color: cadetblue; /* background-color: = propiedade | cadetblue = valor */
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+
+/* Formatação navBar > header*/
+
+nav {
+    background-color: rgb(32, 32, 32);
+    text-align: right;
+    padding: 20px;
+    margin-left: -8px; /* gambiarra para tirar margem do navegador */
+    margin-right: -8px; /* gambiarra para tirar margem do navegador */
+    margin-top: -7px; 
+}
+.navBar a {
+    font-family: Arial;
+    font-size: 15px;
+    color: #f2f2f2;
+    padding:  20px; /* espaçamento entre indices */
+    text-decoration: none; /* remove o underline dos links */
+}
+.navBar a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+.navBar a:active{
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline rgb(0, 195, 255);
+}
+#Conteudo4 {
+    margin-right: 50px;
+}
+
+
+/* Formatação geral h2 > header*/
+
+h2 { 
+    text-align:center;
+    margin: 50px;
+    text-decoration: underline black 1px;
+}
+
+
+/* Formatação div. campoTexto */
+
+div.campoTexto {
+    margin-left: 40px;
+    padding: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 390px; /* largura */
+    height: 350px; /* altura */
+    border: 1px solid black;
+    border-radius: 29px;
+}
+
+
+/* formatação div > paragrafo */
+
+div.paragrafo{
+    margin: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* Formatação botão */
+
+span{
+    text-align: center;
+}
+#botao{
+    padding: 12px 15px;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(21, 22, 22);
+    color: whitesmoke;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 30px;
+  /*   margin-left: 50%; */
+}
+#botao:hover{
+    text-decoration: underline;
+    background-color: rgb(177, 132, 20);
+}
+
+
+/* Formatação Links */
+
+
+
+/* Formatação rodapé */
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    margin-left: -8px; /* para tirar margem do navegador */
+    margin-right: -8px;
+    margin-bottom: -8px;
+    padding: 26px;
+}

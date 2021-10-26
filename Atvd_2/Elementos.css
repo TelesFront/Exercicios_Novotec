@@ -1,0 +1,14 @@
+/* * { o asterico é seletor universal para todo o código*/
+
+*{
+    margin: 25px;
+}
+body{
+    background-color: rgb(153, 207, 221);
+}
+h2 {
+    color: snow;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(0, 0, 0);
+}

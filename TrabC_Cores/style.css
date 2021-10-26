@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(238, 145, 163);
+}
+div { /* transparente */
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 10px;
+    width: 300px; /* largura */
+    height: 300px; /* altura */
+    border: 1px solid;
+    border-radius: 15px;
+}

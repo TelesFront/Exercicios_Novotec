@@ -1,0 +1,29 @@
+*{
+    margin: auto;
+}
+caption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 5px 5px;/* em cima, direita, a baixo e a esquerda */
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px; /* espaço interno */
+}
+thead tr{
+    border-bottom: 4px solid black;
+}
+tbody tr:hover{
+    background-color: rgb(195, 206, 228);
+    text-align: center; /* o tesxto vai para o meio, efeito de crescer */
+    color: crimson;
+}
+tfoot {
+    background-color: rgb(158, 157, 157); /* cor de fundo */
+    color: #000; /* cor do texto */
+}

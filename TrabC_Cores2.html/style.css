@@ -1,0 +1,12 @@
+body {
+    background-color: hsl(180, 50%, 50%);
+    text-align: center;
+}
+div {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    top: 10px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black ;
+    margin: auto; /* centraliza */
+}

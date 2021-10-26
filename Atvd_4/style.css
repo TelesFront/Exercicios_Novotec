@@ -1,0 +1,20 @@
+.formato {
+    border: thin #0f0f0f solid; /* propiedade abreviada, geral */
+    display: flex;
+    flex-flow: column; /* determina como vai ser exibido */
+    padding: 5px;
+    max-width: 400px;
+    margin: auto; /* centaliza a imagem */
+}
+.formato img{
+    max-width: 400px;
+    max-height: 350px;
+}
+.formato figcaption{
+    background-color: rgb(41, 41, 41);
+    color: #ffa;
+    font: it
+    alic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+} 

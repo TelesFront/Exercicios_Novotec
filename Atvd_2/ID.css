@@ -1,0 +1,14 @@
+#ide1 {
+font-size: 25px;
+text-decoration: underline;
+}
+#btnLegal {
+    background-color: black;
+    color: cornsilk;
+    text-decoration: none;
+    border-radius: 15px 15px;
+    padding: 15px 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 81%;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>formulário com CSS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- div#area>h2+form#formulario>fieldset>legend+div>label+input:text.nome -->
+
+        <div id="area">
+            <h2>Formulário com CSS</h2>
+            <form action="#" id="formulario" method="post" autocomplete="off">
+                <fieldset> <!-- agrupador de campos de formunlários separa as sessoês do formulário -->
+                    <legend>Formulário</legend>
+                    <div>
+                        <label for="nomeCliente">Nome:</label> <!-- titulo do campo -->
+                        <input type="text" name="" id="nomeCliente" class="nome" placeholder="Insira o seu nome..">
+                    </div>
+                    <div>
+                        <label for="emailCliente">E-mail:</label>
+                        <input type="email" name="" id="emailCliente" class="nome" placeholder="Insira seu Email">
+                        <!-- <small></small> informaão para o usuário -->
+                    </div>
+                    <div>
+                        <label for="sexo">Sexo:</label>
+                        <select name="" id="">
+                            <option value="Feminino">Feminino</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Outros">Outro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Mensagem">Mensagem</label>
+                        <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" placeholder="Digite Sua Mensagem"></textarea>
+                    </div>
+                    <!-- div#btns>button:submit.btn+button:reset.btn -->
+                    <div id="btns">
+                        <button type="submit" class="btn">Enviar</button>
+                        <button type="reset" class="btn">Limpar</button> <!-- resseta o formulario -->
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+
+    </body>
+</html>
+
+
+<!-- DIV's são elementos selecionados e tem por caracteristica o elemento em bloco -->
+<!-- regex são regras de expressão -->
+<!-- java script passou a lidar com a base de dados -->
