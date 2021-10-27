@@ -1,0 +1,47 @@
+
+/* Seletor Geral */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Grid Aera */
+header {
+    grid-area: cabecalho; /*  está aplicando label */
+}
+
+nav {
+    grid-area: navegacao;
+}
+
+main {
+    grid-area: conteudo;
+}
+
+footer {
+    grid-area: rodape;
+}
+
+body {
+    display: grid; /* ativar o css grid layout */
+    min-height: 100vh; /* todo espaço do view port (toda altura do layout)*/
+    grid-template-columns: 300px 1fr; /* quantas colunas terão no meu template e largura*/
+    grid-template-rows: 100px 1fr 100px; /* Quantidade de linhas e altura -- 100px torna os valores fixos */
+    
+    grid-template-areas: 
+        'cabecalho cabecalho'
+        'navegacao conteudo'
+        'rodape rodape';
+}
+
+@media(max-width: 700px){ /* Responsividade */
+    body {
+        grid-auto-columns: 1fr;
+        grid-template-rows: 80px 80px 1fr 100px ;
+        grid-template-areas: 
+            'cabevalho'
+            'navegacao'
+            'conteudo'
+            'rodape';
+    }
+}
